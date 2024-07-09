@@ -1,9 +1,0 @@
-2022-12-19 20:40:31 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "TESTS" not found; SQL statement:
-SELECT * FROM  tests [42102-196]
-2022-12-19 20:54:42 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement " INSERT TESTSCOREONE[*] TESTS  "; expected "INTO"; SQL statement:
- Insert TestScoreOne tests  [42001-196]
-2022-12-19 20:55:36 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement " INSERT TESTSCOREFOUR[*]  INTO TESTS  "; expected "INTO"; SQL statement:
- Insert TestScoreFour  into tests  [42001-196]
