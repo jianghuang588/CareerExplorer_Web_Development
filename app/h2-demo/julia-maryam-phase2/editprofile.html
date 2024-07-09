@@ -1,0 +1,73 @@
+<html>
+<head>
+  <title>bkclb</title>
+  <link rel="stylesheet" href="style.css">
+    
+  <script src="angular.min.js"> </script>
+  <script src="editprofile.js"></script>
+</head>
+<ul>
+    <li>
+      <a href="home.html">Home</a>
+    </li>
+    <li >
+      <a href="bookclub.html">Book Club</a>
+    </li>
+    <li>
+      <a href="aboutus.html">About</a>
+    </li>
+    <li >
+      <a href="login.html">Login</a>
+    </li>
+    <li >
+      <a href="adminlogin.html">Admin Login</a>
+    </li>
+    <li >
+      <a href="logout.html">Logout</a>
+    </li>
+</ul>
+
+
+<h2>edit profile</h2>
+    
+    
+    
+    <div ng-app="myApp" ng-controller="myController">
+        <form name="myForm" >
+            new username
+            <input type="text" ng-model="user.username" ><br>
+            <button ng-click="username()">
+                submit
+            </button><br>
+            first name
+            <input type="text" ng-model="user.firstName" ><br>
+            <button ng-click="firstName()">
+                submit
+            </button> <br>
+            last name
+            <input type="text" ng-model="user.lastName" ><br>
+            <button ng-click="lastName()">
+                submit
+            </button><br>
+            email
+            <input type="text" ng-model="user.email"><br>
+            <button ng-click="email()">
+                submit
+            </button><br>
+            favorite book
+            <input type="text" ng-model="user.favBook"><br>
+            <button ng-click="favBook()">
+                submit
+            </button>
+        </form>
+        
+        <p id="output">
+        </p>
+    </div>
+    <br><br>
+    
+
+
+
+
+</html>

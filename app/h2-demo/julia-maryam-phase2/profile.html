@@ -1,0 +1,42 @@
+<html>
+<head>
+  <title>bkclb</title>
+  <link rel="stylesheet" href="style.css">
+    
+  <script src="angular.min.js"> </script>
+  <script src="profile.js"></script>
+</head>
+<ul>
+    <li>
+      <a href="home.html">Home</a>
+    </li>
+    <li >
+      <a href="bookclub.html">Book Club</a>
+    </li>
+    <li>
+      <a href="aboutus.html">About</a>
+    </li>
+    <li >
+      <a href="login.html">Login</a>
+    </li>
+    <li >
+      <a href="adminlogin.html">Admin Login</a>
+    </li>
+    <li >
+      <a href="logout.html">Logout</a>
+    </li>
+</ul>
+
+
+<h2>my profile</h2>
+
+    
+   <div ng-app="myApp" ng-controller="myController" class="ng-scope">
+       <b class="ng-binding">name: {{firstName + lastName}}</b><br>  
+       <b class="ng-binding">email: {{email}}</b><br>
+       <b class="ng-binding">favorite book: {{favBook}}</b><br>
+       <b class="ng-binding">in book club since: {{year}}</b><br>
+   </div>
+
+
+</html>

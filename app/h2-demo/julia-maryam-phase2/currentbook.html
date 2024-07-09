@@ -1,0 +1,47 @@
+<html>
+<head>
+  <title>bkclb</title>
+  <link rel="stylesheet" href="style.css">
+    
+  <script src="angular.min.js"> </script>
+  <script src="currentbook.js"></script>
+</head>
+<ul>
+    <li>
+      <a href="home.html">Home</a>
+    </li>
+    <li >
+      <a href="bookclub.html">Book Club</a>
+    </li>
+    <li>
+      <a href="aboutus.html">About</a>
+    </li>
+    <li >
+      <a href="login.html">Login</a>
+    </li>
+    <li >
+      <a href="adminlogin.html">Admin Login</a>
+    </li>
+    <li >
+      <a href="logout.html">Logout</a>
+    </li>
+</ul>
+
+
+
+<div ng-app="myApp" ng-controller="myController" class="ng-scope">
+    <h2 class="ng-binding">{{bookname}}</h2><br>
+    <b class="ng-binding">by {{author}}</b> <br>
+    <b class="ng-binding">{{description}}</b><br>
+    <b class="ng-binding">meeting date: {{date}}</b> <br>
+    <b class="ng-binding">meeting location: {{loc}}</b> <br>
+    
+    <h4>other member progress</h4>
+    <p id="output">
+    </p>
+</div>
+
+
+</html>
+
+
