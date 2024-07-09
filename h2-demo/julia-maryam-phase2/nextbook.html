@@ -1,0 +1,50 @@
+<html>
+<head>
+  <title>bkclb</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <script src="angular.min.js"> </script>
+  <script src="nextbook.js"></script>
+</head>
+<ul>
+    <li>
+      <a href="home.html">Home</a>
+    </li>
+    <li >
+      <a href="bookclub.html">Book Club</a>
+    </li>
+    <li>
+      <a href="aboutus.html">About</a>
+    </li>
+    <li >
+      <a href="login.html">Login</a>
+    </li>
+    <li >
+      <a href="adminlogin.html">Admin Login</a>
+    </li>
+    <li >
+      <a href="logout.html">Logout</a>
+    </li>
+</ul>
+
+
+<h2>the next book</h2>
+
+
+
+<div ng-app="myApp" ng-controller="myController">
+        <form name="myForm" >
+            make a suggestion
+            <input type="text" ng-model="suggestion" required><br><br>
+            <button ng-click="submit()">
+                submit
+            </button>
+        </form>
+    
+        <h2>other suggestions</h2>
+        <p id="output">
+        </p>
+</div>
+
+
+</html>
