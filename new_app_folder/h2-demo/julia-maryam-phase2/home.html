@@ -1,0 +1,53 @@
+<html>
+<head>
+  <title>bkclb</title>
+   <link rel="stylesheet" href="style.css">
+  <script src="angular.min.js"> </script>
+  <script src="home.js"></script>
+</head>
+<ul>
+    <li>
+      <a href="home.html">Home</a>
+    </li>
+    <li >
+      <a href="bookclub.html">Book Club</a>
+    </li>
+    <li>
+      <a href="aboutus.html">About</a>
+    </li>
+    <li >
+      <a href="login.html">Login</a>
+    </li>
+    <li >
+      <a href="adminlogin.html">Admin Login</a>
+    </li>
+    <li >
+      <a href="logout.html">Logout</a>
+    </li>
+  </ul>
+
+
+
+<h2>home</h2>
+
+    <div ng-app="myApp" ng-controller="myController">
+            <button ng-click="profile()">
+                view my profile
+            </button>
+            <br><br>
+            <button class = "pure-button" ng-click="bookclub()">
+                view my bookclub
+            </button>
+            <br><br>
+            <button ng-click="editprofile()">
+                edit my profile
+            </button>
+    </div>
+    
+    <p id="output">
+    </p>
+
+
+
+
+</html>

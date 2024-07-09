@@ -1,0 +1,58 @@
+<html>
+   <head>
+      <title>bkclb</title>
+      <link rel="stylesheet" href="style.css">
+      <script src="angular.min.js"> </script>
+      <script src="country.js"></script>
+   </head>
+   <ul>
+      <li>
+         <a href="home.html">Home</a>
+      </li>
+      <li >
+         <a href="worker.html">Worker Information</a>
+      </li>
+      <li >
+         <a href="country.html">Country Information</a>
+      </li>
+      <li >
+         <a href="update.html">Update Information</a>
+      </li>
+      <li>
+         <a href="material.html">About</a>
+      </li>
+      <li >
+         <a href="login.html">Login</a>
+      </li>
+      <li >
+         <a href="adminlogin.html">Admin Login</a>
+      </li>
+      <li >
+         <a href="logout.html">Logout</a>
+      </li>
+   </ul>
+   <h2>country page</h2>
+   <div ng-app="myApp" ng-controller="myController">
+   <button ng-click="BestSalary()">
+   Find the world highest pay
+   </button>
+   <br><br>
+   <div ng-app="myApp" ng-controller="myController">
+   <button ng-click="Payment()">
+   Find the world lowest pay
+   </button>
+   <br><br>
+   <div ng-app="myApp" ng-controller="myController">
+   <button ng-click="HighPopulation()">
+   Find the world largest population
+   </button>
+   <br><br>
+   <div ng-app="myApp" ng-controller="myController">
+      <button ng-click="Population()">
+      Find the world least population
+      </button>
+      <br><br>
+   </div>
+   <p id="output">
+   </p>
+</html>

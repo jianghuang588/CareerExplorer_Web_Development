@@ -1,0 +1,42 @@
+<html>
+<head>
+  <title>bkclb</title>
+  <link rel="stylesheet" href="style.css">
+    
+  <script src="angular.min.js"> </script>
+  <script src="logout.js"></script>
+</head>
+<ul>
+    <li>
+      <a href="home.html">Home</a>
+    </li>
+    <li >
+      <a href="bookclub.html">Book Club</a>
+    </li>
+    <li>
+      <a href="aboutus.html">About</a>
+    </li>
+    <li >
+      <a href="login.html">Login</a>
+    </li>
+    <li >
+      <a href="adminlogin.html">Admin Login</a>
+    </li>
+    <li >
+      <a href="logout.html">Logout</a>
+    </li>
+</ul>
+
+
+<h2>my profile</h2>
+
+    
+   <div ng-app="myApp" ng-controller="myController" class="ng-scope">
+       <h4>Are you sure you want to logout?</h4>
+       <button ng-click="submit()">
+            yes
+       </button>
+   </div>
+
+
+</html>

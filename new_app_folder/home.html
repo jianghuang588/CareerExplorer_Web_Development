@@ -1,0 +1,58 @@
+<html>
+   <head>
+      <title>bkclb</title>
+      <link rel="stylesheet" href="style.css">
+      <script src="angular.min.js"> </script>
+      <script src="home.js"></script>
+   </head>
+   <ul>
+      <li>
+         <a href="home.html">Home</a>
+      </li>
+      <li >
+         <a href="worker.html">Worker Information</a>
+      </li>
+      <li >
+         <a href="country.html">Country Information</a>
+      </li>
+      <li >
+         <a href="update.html"> Update Information </a>
+      </li>
+      <li>
+         <a href="material.html">About</a>
+      </li>
+      <li >
+         <a href="login.html">Login</a>
+      </li>
+      <li >
+         <a href="adminlogin.html">Admin Login</a>
+      </li>
+      <li >
+         <a href="logout.html">Logout</a>
+      </li>
+   </ul>
+   <h2>home</h2>
+   <div ng-app="myApp" ng-controller="myController">
+      <button ng-click="profile()">
+      view my profile
+      </button>
+      <br><br>
+      <button ng-click="information()">
+      check the salary
+      </button>
+      <br><br>
+      <button ng-click="retire()">
+      check the retire year
+      </button>
+      <br><br>
+      <button ng-click="graduation()">
+      check the graduation year
+      </button>
+      <br><br>
+      <button ng-click="tranning()">
+      check the time for  tranning
+      </button>
+   </div>
+   <p id="output">
+   </p>
+</html>
