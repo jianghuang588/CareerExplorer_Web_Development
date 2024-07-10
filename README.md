@@ -1,5 +1,5 @@
-Instruction on how to start the program:
-- make sure that H2 database is running
+# Instruction on how to start the program:
+- make sure that H2 database is running   
 - java -cp h2*.jar org.h2.tools.Server -tcp -pg
 - compile and execute workerDB.java
 - database will be create after you compile and execute workerDB.java
