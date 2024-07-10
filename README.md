@@ -7,13 +7,13 @@
 - when you run the html page use localhost:40013/login.html 
 - login.html is the main page
 
+# User Information: 
 - 6 regular username: "michael","taylor","julia","nora","oliver","william"
 - the regular user have the same password: "password"
-
 - admin username: "admin" 
 - password:"password" 
 
-Table one 
+# Primary key information and How to Delete the Table:
 - delete the account by enter the right primary key number
 The primary key is 1-7
 (1) michael
@@ -24,6 +24,3 @@ The primary key is 1-7
 (6) william
 (7) admin
 
-Table two to six on the admin page 
-- delete the information by enter 7
-For table two to six, I only pull out the database information related to primary key 7 
