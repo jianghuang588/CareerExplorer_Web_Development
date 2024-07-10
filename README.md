@@ -7,13 +7,13 @@
 - when you run the html page use localhost:40013/login.html 
 - login.html is the main page
 
-# User Information: 
+# User information: 
 - 6 regular username: "michael","taylor","julia","nora","oliver","william"
 - the regular user have the same password: "password"
 - admin username: "admin" 
 - password:"password" 
 
-# Primary key information and How to Delete the Table:
+# Primary key information and how to delete the table:
 - delete the account by enter the right primary key number
 The primary key is 1-7
 (1) michael
