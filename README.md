@@ -25,5 +25,17 @@
 (7) admin
 
 # App Walk Through:
+## Home Page For Regular User
+![homePage](https://github.com/user-attachments/assets/0d473f4d-d2c3-46ff-a88e-450b123827e4)
+## Best Paying Carrer with Location Page
+![page](https://github.com/user-attachments/assets/7c591ff4-2760-45a5-ad67-c09b2f32318e)
+## Update User Information Page
+![part1](https://github.com/user-attachments/assets/0ac78a36-a5c5-46c6-94c0-9a0f422953c0)
+![part2](https://github.com/user-attachments/assets/9c1b29d4-b2c3-42d6-8e91-430bc3b6b0a6)
+
+
+
+
+
 
 
