@@ -32,6 +32,12 @@
 ## Update User Information Page
 ![part1](https://github.com/user-attachments/assets/0ac78a36-a5c5-46c6-94c0-9a0f422953c0)
 ![part2](https://github.com/user-attachments/assets/9c1b29d4-b2c3-42d6-8e91-430bc3b6b0a6)
+## Admin User Delete Account Page
+![delete](https://github.com/user-attachments/assets/ca6fc766-de97-4734-a83d-11c7890f1678)
+## Admin User Update Account Page
+![update](https://github.com/user-attachments/assets/ee93a10a-0cd8-497e-9e5c-75a60960688d)
+
+
 
 
 
