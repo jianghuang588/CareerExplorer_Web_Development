@@ -27,6 +27,9 @@
 # App Walk Through:
 ## Home Page For Regular User
 ![homePage](https://github.com/user-attachments/assets/0d473f4d-d2c3-46ff-a88e-450b123827e4)
+
+
+
 ## Best Paying Carrer with Location Page
 ![page](https://github.com/user-attachments/assets/7c591ff4-2760-45a5-ad67-c09b2f32318e)
 ## Update User Information Page
