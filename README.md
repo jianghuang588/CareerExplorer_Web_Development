@@ -24,21 +24,43 @@
 (6) william
 (7) admin
 
+
 # App Walk Through:
 ## Home Page For Regular User
 ![homePage](https://github.com/user-attachments/assets/0d473f4d-d2c3-46ff-a88e-450b123827e4)
+<br>
+<br>
+<br>
+<br>
 
 
 
 ## Best Paying Carrer with Location Page
 ![page](https://github.com/user-attachments/assets/7c591ff4-2760-45a5-ad67-c09b2f32318e)
+<br>
+<br>
+<br>
+<br>
+
 ## Update User Information Page
 ![part1](https://github.com/user-attachments/assets/0ac78a36-a5c5-46c6-94c0-9a0f422953c0)
-![part2](https://github.com/user-attachments/assets/9c1b29d4-b2c3-42d6-8e91-430bc3b6b0a6)
+<br>
+<br>
+<br>
+<br>
+
 ## Admin User Delete Account Page
 ![delete](https://github.com/user-attachments/assets/ca6fc766-de97-4734-a83d-11c7890f1678)
+<br>
+<br>
+<br>
+<br>
 ## Admin User Update Account Page
 ![update](https://github.com/user-attachments/assets/ee93a10a-0cd8-497e-9e5c-75a60960688d)
+<br>
+<br>
+<br>
+<br>
 
 
 
