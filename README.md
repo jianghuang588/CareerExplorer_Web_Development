@@ -1,60 +1,83 @@
-# Instruction:
-- make sure that H2 database is running   
-- java -cp h2*.jar org.h2.tools.Server -tcp -pg
-- compile and execute workerDB.java
-- database will be create after you compile and execute workerDB.java
-- compile and execute WebServer.java 
-- when you run the html page use localhost:40013/login.html 
-- login.html is the main page
+# Application Walkthrough Guide 📖
 
-# User Information: 
-- 6 regular username: "michael","taylor","julia","nora","oliver","william"
-- the regular user have the same password: "password"
-- admin username: "admin" 
-- password:"password" 
+---
 
-# Primary Key:
-- delete the account by enter the right primary key number
-- the primary key is 1-7
-(1) michael
-(2) taylor
-(3) julia
-(4) nora
-(5) oliver
-(6) william
-(7) admin
+## 📂 **Instructions:**
+1. **Start the H2 Database**:
+   - Run the command: `java -cp h2*.jar org.h2.tools.Server -tcp -pg`
+2. **Setup the Database**:
+   - Compile and execute `workerDB.java` to create the database.
+3. **Start the Web Server**:
+   - Compile and execute `WebServer.java`.
+4. **Access the Application**:
+   - Open your browser and navigate to: `http://localhost:40013/login.html`
+   - `login.html` is the **main page**.
 
+---
 
-# App Walk Through:
-## Home Page For Regular User
+## 🔑 **User Information:**
+### Regular Users:
+- **Usernames**: `michael`, `taylor`, `julia`, `nora`, `oliver`, `william`
+- **Password**: `password`
+
+### Admin User:
+- **Username**: `admin`
+- **Password**: `password`
+
+---
+
+## ⚙️ **Primary Key for Deleting Accounts:**
+Use the following primary keys to delete accounts:
+1. `1`: michael  
+2. `2`: taylor  
+3. `3`: julia  
+4. `4`: nora  
+5. `5`: oliver  
+6. `6`: william  
+7. `7`: admin  
+
+---
+
+## 🌟 **App Walkthrough:**
+- **Navigation Flow:** Home Page → Career Page → Update User → Admin Update Account → Admin Delete Account
+
+<details>
+<summary>🏠 **Home Page For Regular User**</summary>
+
 ![homePage](https://github.com/user-attachments/assets/0d473f4d-d2c3-46ff-a88e-450b123827e4)
 
+</details>
 
+<details>
+<summary>💼 **Best Paying Career with Location Page**</summary>
 
-
-## Best Paying Carrer with Location Page
 ![page](https://github.com/user-attachments/assets/7c591ff4-2760-45a5-ad67-c09b2f32318e)
 
+</details>
 
+<details>
+<summary>🔄 **Update User Information Page**</summary>
 
-## Update User Information Page
 ![part1](https://github.com/user-attachments/assets/0ac78a36-a5c5-46c6-94c0-9a0f422953c0)
 
+</details>
 
+<details>
+<summary>🛠️ **Admin User Update Account Page**</summary>
 
-## Admin User Delete Account Page
-![delete](https://github.com/user-attachments/assets/ca6fc766-de97-4734-a83d-11c7890f1678)
-
-## Admin User Update Account Page
 ![update](https://github.com/user-attachments/assets/ee93a10a-0cd8-497e-9e5c-75a60960688d)
 
+</details>
 
+<details>
+<summary>❌ **Admin User Delete Account Page**</summary>
 
+![delete](https://github.com/user-attachments/assets/ca6fc766-de97-4734-a83d-11c7890f1678)
 
+</details>
 
+---
 
-
-
-
-
-
+## 📝 **Additional Tips:**
+- Ensure all users have the correct credentials.
+- For admins, ensure primary key deletion corresponds accurately to the table.
